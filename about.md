@@ -4,7 +4,7 @@ title: About
 permalink: /about/
 ---
 
-![Profile Picture]({{ site.url }}/assets/round_pic.png){:class="img-responsive"}
+![Profile Picture]({{ site.url }}/blog/assets/round_pic.png){:class="img-responsive"}
 
 Hi! I am a recent graduate from Oberlin College with a Bachelors of Arts in Computer Science.
 
