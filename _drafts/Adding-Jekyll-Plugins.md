@@ -1,8 +1,8 @@
 ---
 layout: post
 title:  "Installing Jekyll plugins"
-date:   2016-07-28 02:00:00 -0500
-comments: true
+# date:   2016-07-28 02:00:00 -0500
+comments: false
 author: Aaron Young
 ---
 
