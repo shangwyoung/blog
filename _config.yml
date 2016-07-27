@@ -7,6 +7,7 @@
 
 # Site settings
 title: Do I Even CS?
+author: Aaron Young
 email: contact@aaronyoung.me
 description: > # this means to ignore newlines until "baseurl:"
   Just a normal guy trying to make sense of the world of CS
@@ -15,6 +16,9 @@ url: "http://aaronyoung.me" # the base hostname & protocol for your site
 twitter_username: aarony422
 github_username:  aarony422
 paginate: 10
+paginate_path: "/page:num/"
+permalink: "/:year/:month/:day/:title/"
 
 # Build settings
 markdown: kramdown
+gems: [jekyll-sitemap]
