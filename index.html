@@ -3,36 +3,28 @@ layout: default
 ---
 
 <div class="home">
-
-  <h1 class="page-heading">Posts</h1>
-
-  <ul class="post-list">
-    {% for post in paginator.posts %}
-      <li>
-        <h2>
-          <a class="post-link" href="{{ post.url | prepend: site.baseurl }}">{{ post.title }}</a>
-        </h2>
-        <span class="post-meta">Posted on {{ post.date | date: "%b %-d, %Y" }}</span>
-        <p>{{ post.excerpt | truncatewords:75 }}</p>
-        <p class="text-right">
-          <a href="{{ post.url | prepend: site.baseurl }}">[Read More]</a>
-        </p>
-      </li>
-    {% endfor %}
-  </ul>
+  {% for post in paginator.posts %}
+    <div class="post-entry">
+      <h2>
+        <a class="post-link" href="{{ post.url | prepend: site.baseurl }}">{{ post.title }}</a>
+      </h2>
+      <span class="post-meta">Posted on {{ post.date | date: "%b %-d, %Y" }}</span>
+      <p>{{ post.excerpt | truncatewords:75 }}</p>
+    </div>
+  {% endfor %}
 
   <!-- Pagination links -->
   <div class="pagination">
     {% if paginator.previous_page %}
-      <a href="{{ paginator.previous_page_path | prepend: site.baseurl }}" class="previous">Previous</a>
+      <a href="{{ paginator.previous_page_path | prepend: site.baseurl }}" class="previous"><i class="fa fa-arrow-left" aria-hidden="true"></i></a>
     {% else %}
-      <span class="previous">Previous</span>
+      <span class="previous"><i class="fa fa-arrow-left" aria-hidden="true"></i></span>
     {% endif %}
     <span class="page_number ">Page: {{ paginator.page }} of {{ paginator.total_pages }}</span>
     {% if paginator.next_page %}
-      <a href="{{ paginator.next_page_path | prepend: site.baseurl }}" class="next">Next</a>
+      <a href="{{ paginator.next_page_path | prepend: site.baseurl }}" class="next"><i class="fa fa-arrow-right" aria-hidden="true"></i></a>
     {% else %}
-      <span class="next ">Next</span>
+      <span class="next "><i class="fa fa-arrow-right" aria-hidden="true"></i></span>
     {% endif %}
   </div>
 

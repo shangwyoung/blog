@@ -14,6 +14,15 @@ layout: default
 
 </article>
 
+<div class="PageNavigation">
+  {% if page.previous.url %}
+    <a class="prev" href="{{ page.previous.url | prepend: site.baseurl }}"><i class="fa fa-arrow-circle-left" aria-hidden="true"></i> {{ page.previous.title }}</a>
+  {% endif %}
+  {% if page.next.url %}
+    <a class="next" href="{{ page.next.url | prepend: site.baseurl }}">{{ page.next.title }} <i class="fa fa-arrow-circle-right" aria-hidden="true"></i></a>
+  {% endif %}
+</div>
+
 {% if page.comments %}
   {% include disqus.html %}
 {% endif %}
