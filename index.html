@@ -8,7 +8,15 @@ layout: default
       <h2>
         <a class="post-link" href="{{ post.url | prepend: site.baseurl }}">{{ post.title }}</a>
       </h2>
-      <span class="post-meta">Posted on {{ post.date | date: "%b %-d, %Y" }}</span>
+      <span class="post-meta">
+        Posted on {{ post.date | date: "%b %-d, %Y" }} •
+        {% assign words = post.content | number_of_words %}
+        {% if words < 360 %}
+          1 min
+        {% else %}
+          {{ words | divided_by: 180 }} mins
+        {% endif %} read
+      </span>
       <p>{{ post.excerpt | truncatewords:75 }}</p>
     </div>
   {% endfor %}
