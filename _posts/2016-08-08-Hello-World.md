@@ -3,7 +3,7 @@ layout: post
 title:  "Hello World - Time for a Makeover"
 date:   2016-08-19 11:00:00 -0500
 # categories: update
-comments: false
+comments: true
 author: Aaron Young
 ---
 
@@ -313,7 +313,7 @@ Helpful links
 * [Stackoverflow: navbar active li not changing background-color][7]
 * [Stackoverflow: Change icon-bar (☰) color in bootstrap][8]
 * [Stackoverflow: How to close an open collapsed navbar when clicking outside of the navbar element in Bootstrap 3?][5]
-
+* [How to Center Align Your Embedded Tweets][9]
 
 [personal-website-v1]: ../../../../assets/personalwebsitepic.png "My old personal website"
 [1]: https://www.spotify.com/us/
@@ -324,3 +324,4 @@ Helpful links
 [6]: http://stackoverflow.com/questions/16625972/change-color-of-bootstrap-navbar-on-hover-link
 [7]: http://stackoverflow.com/questions/20732584/bootstrap-3-navbar-active-li-not-changing-background-color
 [8]: http://stackoverflow.com/questions/20540563/change-icon-bar-color-in-bootstrap
+[9]: http://blog.hubspot.com/blog/tabid/6307/bid/34273/How-to-Center-Align-Your-Embedded-Tweets-Quick-Tip.aspx#sm.0001hboq1hv0aevvzvm123xijzokc

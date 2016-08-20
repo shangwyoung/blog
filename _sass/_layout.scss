@@ -26,6 +26,13 @@
     }
 }
 
+#profile {
+  border-left-style: solid;
+  border-left-color: white;
+  border-left-width: 1px;
+  padding-left: 22px;
+}
+
 .site-nav {
     float: right;
     line-height: 56px;
@@ -52,6 +59,11 @@
         border: 1px solid $grey-color-light;
         border-radius: 5px;
         text-align: right;
+
+        #profile {
+          border: none;
+          padding: 0px;
+        }
 
         .menu-icon {
             display: block;
