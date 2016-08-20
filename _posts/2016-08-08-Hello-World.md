@@ -1,7 +1,7 @@
 ---
 layout: post
 title:  "Hello World - Time for a Makeover"
-date:   2016-08-07 11:00:00 -0500
+date:   2016-08-19 11:00:00 -0500
 # categories: update
 comments: false
 author: Aaron Young
@@ -305,8 +305,22 @@ And there you have it! A nice looking fixed-top animated navigation bar.
 <p data-height="443" data-theme-id="0" data-slug-hash="LkvGgm" data-default-tab="result" data-user="aaronyoung" data-embed-version="2" class="codepen">See the Pen <a href="http://codepen.io/aaronyoung/pen/LkvGgm/">Personal-Website-Navbar</a> by Aaron Young (<a href="http://codepen.io/aaronyoung">@aaronyoung</a>) on <a href="http://codepen.io">CodePen</a>.</p>
 <script async src="//assets.codepen.io/assets/embed/ei.js"></script>
 
+Helpful links
+---
+* [w3school: Bootstrap Scrollspy][3]
+* [w3school: Bootstrap Navbar][4]
+* [Stackoverflow: Change color of bootstrap navbar on hover link?][6]
+* [Stackoverflow: navbar active li not changing background-color][7]
+* [Stackoverflow: Change icon-bar (☰) color in bootstrap][8]
+* [Stackoverflow: How to close an open collapsed navbar when clicking outside of the navbar element in Bootstrap 3?][5]
+
+
 [personal-website-v1]: ../../../../assets/personalwebsitepic.png "My old personal website"
 [1]: https://www.spotify.com/us/
 [2]: https://www.airbnb.com/
 [3]: http://www.w3schools.com/bootstrap/bootstrap_scrollspy.asp
 [4]: http://www.w3schools.com/bootstrap/bootstrap_navbar.asp
+[5]: http://stackoverflow.com/questions/23764863/how-to-close-an-open-collapsed-navbar-when-clicking-outside-of-the-navbar-elemen
+[6]: http://stackoverflow.com/questions/16625972/change-color-of-bootstrap-navbar-on-hover-link
+[7]: http://stackoverflow.com/questions/20732584/bootstrap-3-navbar-active-li-not-changing-background-color
+[8]: http://stackoverflow.com/questions/20540563/change-icon-bar-color-in-bootstrap
