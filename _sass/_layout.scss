@@ -249,6 +249,22 @@
     }
 }
 
+.btn-facebook {
+  color: white !important;
+  background: #3B5998;
+  cursor: pointer;
+  padding: 4px 10px 1px 9px !important;
+  width: 76px;
+  height: 28px;
+  vertical-align: top !important;
+}
+.btn-facebook:focus,.btn-facebook.focus,.btn-facebook:hover{
+  color:#fff;
+  background-color:#2d4373;
+  border-color:rgba(0,0,0,0.2)
+}
+
+
 /**
  * Page Navigation within Post
  */

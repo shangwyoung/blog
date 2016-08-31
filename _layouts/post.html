@@ -25,6 +25,11 @@ layout: default
     {{ content }}
   </div>
 
+  <a class="twitter-share-button" data-size="large" href="https://twitter.com/intent/tweet">Tweet</a>
+
+  <a class="btn btn-social btn-facebook" href="https://www.facebook.com/sharer/sharer.php?u={{ page.url | prepend: site.baseurl | prepend: site.url }}" target="_blank" OnClick="window.open(this.href,'targetWindow','toolbar=no,location=0,status=no,menubar=no,scrollbars=yes,resizable=yes,width=600,height=250'); return false;">
+    <span class="fa fa-facebook"></span> Share
+  </a>
 </article>
 
 <div class="PageNavigation">
