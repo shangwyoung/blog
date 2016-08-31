@@ -128,6 +128,11 @@
     margin-left: 0;
 }
 
+.profile-sm {
+  width: 36px;
+  height: 36px;
+}
+
 .footer-col-wrapper {
     font-size: 15px;
     color: $grey-color;
@@ -182,6 +187,10 @@
 /**
  * Page content
  */
+.page-content-grey {
+  background: $background-grey;
+}
+
 .page-content {
     padding: $spacing-unit 0;
 }
@@ -190,7 +199,7 @@
 }
 
 .post-meta {
-    font-size: $small-font-size;
+    font-size: $xs-font-size;
     color: $grey-color;
 }
 
