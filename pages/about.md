@@ -5,7 +5,8 @@ permalink: /about/
 ---
 
 ![Profile Picture]({{ site.url }}/assets/images/profile-sm.jpg){:width="213px" height="213px" .center-image }
-
+<br/>
+<br/>
 Hi! My name is Aaron Young and I am a recent graduate from Oberlin College with a major in Computer Science. One of many things I have learned from college is that the world of CS is like a gigantic creature; it is alive, fascinating, complex, intimidating, and sometimes difficult to work with.
 
 As an aspiring software developer, I have reached out to the online CS community countless times for help on anything (and EVERYTHING) that could go wrong, and the world of CS always seems a little less daunting.
