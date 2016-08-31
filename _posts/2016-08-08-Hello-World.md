@@ -5,6 +5,7 @@ date:   2016-08-19 11:00:00 -0500
 # categories: update
 comments: true
 author: Aaron Young
+cover-photo: "assets/personalwebsitepic-cover.png"
 ---
 
 It's the year 2k16, and the last thing anyone wants to see on the internet is a

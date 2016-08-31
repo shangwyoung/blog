@@ -17,7 +17,12 @@ layout: default-grey
           {{ words | divided_by: 180 }} mins
         {% endif %} read
       </span>
-      <p>{{ post.excerpt | truncatewords:75 }}</p>
+      <a class="post-meta-link" href="{{ post.url | prepend: site.baseurl }}">
+        {% if post.cover-photo %}
+          <img class="cover-photo" src="{{ post.cover-photo }}">
+        {% endif %}
+        <p>{{ post.excerpt | truncatewords:75 }}</p>
+      </a>
     </div>
   {% endfor %}
 
