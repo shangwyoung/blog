@@ -316,6 +316,8 @@ Helpful links
 * [Stackoverflow: How to close an open collapsed navbar when clicking outside of the navbar element in Bootstrap 3?][5]
 * [How to Center Align Your Embedded Tweets][9]
 
+---
+
 [personal-website-v1]: ../../../../assets/personalwebsitepic.png "My old personal website"
 [1]: https://www.spotify.com/us/
 [2]: https://www.airbnb.com/
