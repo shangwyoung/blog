@@ -22,3 +22,13 @@ permalink: "/:year/:month/:day/:title/"
 # Build settings
 markdown: kramdown
 gems: [jekyll-sitemap]
+
+# http://www.minddust.com/post/alternative-tags-and-categories-on-github-pages/
+# categories and tags
+collections:
+  my_categories:
+    output: true
+    permalink: /category/:name/
+  my_tags:
+    output: true
+    permalink: /tag/:name/
