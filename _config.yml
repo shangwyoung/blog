@@ -8,7 +8,7 @@
 # Site settings
 title: Do I Even CS?
 author: Aaron Young
-email: contact@aaronyoung.me
+email: asw.young@gmail.com
 description: > # this means to ignore newlines until "baseurl:"
   Just a normal guy trying to make sense of the world of CS
 baseurl: "/blog" # the subpath of your site, e.g. /blog
