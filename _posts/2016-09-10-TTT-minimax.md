@@ -7,7 +7,7 @@ author: Aaron Young
 comments: true
 cover-photo: "assets/TTT-minimax.png"
 category: programming
-tags: javascript
+tags: javascript freecodecamp
 ---
 
 One of the features I wanted to have in my Tic Tac Toe game was an unbeatable computer, but I wasn't entirely sure how I was going to implement it. After some googling, I came across a very well written article on this exact problem:
