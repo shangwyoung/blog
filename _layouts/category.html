@@ -1,18 +1,50 @@
 ---
-layout: page
+layout: page-grey
 ---
 
 {% if site.categories[page.slug] %}
   {% for post in site.categories[page.slug] %}
-    {% assign currentdate = post.date | date: "%Y" %}
-    {% if currentdate != date %}
-      {% unless forloop.first %}</ul>{% endunless %}
-      <h1 id="y{{post.date | date: "%Y"}}">{{ currentdate }}</h1>
-      <ul>
-      {% assign date = currentdate %}
-    {% endif %}
-      <li>{{ post.date | date: "%b %-d"}} <a href="{{ post.url | prepend: site.baseurl }}">{{ post.title }}</a></li>
-    {% if forloop.last %}</ul>{% endif %}
+    <!-- category and tags -->
+    {% assign category = site.my_categories | where: "slug", post.category %}
+      {% assign category = category[0] %}
+      {% if category %}
+        {% capture category_content %}<a class="category" href="{{ category.url | prepend: site.baseurl }}">{{ category.name }}</a>{% endcapture %}
+      {% endif %}
+
+      {% if post.tags.size > 0 %}
+        {% capture tags_content %} with <i class="fa fa-tags" aria-hidden="true"></i> {% endcapture %}
+        {% for post_tag in post.tags %}
+          {% assign tag = site.my_tags | where: "slug", post_tag %}
+          {% if tag %}
+            {% assign tag = tag[0] %}
+            {% capture tags_content_temp %}{{ tags_content }}<a href="{{ tag.url | prepend: site.baseurl }}">{{ tag.name }}</a>{% if forloop.last == false %}, {% endif %}{% endcapture %}
+            {% assign tags_content = tags_content_temp %}
+          {% endif %}
+        {% endfor %}
+      {% endif %}
+
+    <div class="post-entry">
+      <h2>
+        <a class="post-link" href="{{ post.url | prepend: site.baseurl }}">{{ post.title }}</a>
+      </h2>
+      <span class="post-meta">
+        Posted on {{ post.date | date: "%b %-d, %Y" }} ·
+        {% assign words = post.content | number_of_words %}
+        {% if words < 360 %}
+          1 min
+        {% else %}
+          {{ words | divided_by: 180 }} mins
+        {% endif %} read
+        {% if category_content or tags_content %} · Posted{% endif %}
+        {% if category_content %} in {{ category_content }}{% endif %}{{ tags_content }}
+      </span>
+      <a class="post-meta-link" href="{{ post.url | prepend: site.baseurl }}">
+        {% if post.cover-photo %}
+          <img class="cover-photo" src="{{ post.cover-photo | prepend: '../../' }}">
+        {% endif %}
+        <p>{{ post.excerpt | truncatewords:75 }}</p>
+      </a>
+    </div>
   {% endfor %}
 {% else %}
   <p>There are no posts in this category.</p>
