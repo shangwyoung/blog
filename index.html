@@ -28,7 +28,10 @@ layout: default-grey
         <a class="post-link" href="{{ post.url | prepend: site.baseurl }}">{{ post.title }}</a>
       </h2>
       <span class="post-meta">
-        Posted on {{ post.date | date: "%b %-d, %Y" }} ·
+        {% if post.author %}
+          <span><a class="post-meta-link" href="{{ post.about }}"><img class="profile-sm" src="{{ site.url }}/assets/images/{{ post.profilePic }}"> {{ post.author }}</span></a> ·
+        {% endif %}
+        {{ post.date | date: "%b %-d, %Y" }} ·
         {% assign words = post.content | number_of_words %}
         {% if words < 360 %}
           1 min

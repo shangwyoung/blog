@@ -5,6 +5,8 @@ date:   2016-08-19 11:00:00 -0500
 # categories: update
 comments: true
 author: Aaron Young
+profilePic: profile-sm.jpg
+about: /blog/about
 cover-photo: "assets/personalwebsitepic-cover.png"
 category: programming
 tags: html css javascript

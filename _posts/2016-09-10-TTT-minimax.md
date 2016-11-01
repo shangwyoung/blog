@@ -1,11 +1,17 @@
 ---
+# post information
 layout: post
 title:  "Tic Tac Toe: Minimax Algorithm"
 date:   2016-09-10 11:00:00 -0500
-# categories: update
+# author information
 author: Aaron Young
+profilePic: profile-sm.jpg
+about: /blog/about
+# comments
 comments: true
+# cover photo
 cover-photo: "assets/TTT-minimax.png"
+# category and tags
 category: programming
 tags: javascript freecodecamp
 ---
