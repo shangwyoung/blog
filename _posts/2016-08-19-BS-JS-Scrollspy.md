@@ -240,7 +240,7 @@ Helpful links
 
 ---
 
-[personal-website-v1]: ../../../../assets/personalwebsitepic.png "My old personal website"
+[personal-website-v1]: http://www.aaronyoung.me/blog/assets/personalwebsitepic.png "My old personal website"
 [1]: https://www.spotify.com/us/
 [2]: https://www.airbnb.com/
 [3]: http://www.w3schools.com/bootstrap/bootstrap_scrollspy.asp
