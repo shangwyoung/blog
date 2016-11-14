@@ -51,7 +51,7 @@
         }
     }
 
-    @include media-query($on-palm) {
+    @include media-query($nav-collapse) {
         position: absolute;
         top: 9px;
         right: $spacing-unit / 2;
@@ -62,7 +62,7 @@
 
         #profile {
           border: none;
-          padding: 0px;
+          padding-left: 0px;
         }
 
         .menu-icon {
