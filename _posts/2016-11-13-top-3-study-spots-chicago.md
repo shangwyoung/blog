@@ -10,6 +10,7 @@ cover-photo: "assets/coffeeshops.jpg"
 category: food
 tags: chicago coffeeshop freewifi
 ---
+![studySpotsCollage]
 
 If you are like me who could never concentrate or be productive at home, then
 you'll understand the need for good coffeeshops that have the following qualities
@@ -78,3 +79,8 @@ in Chicago that I frequent quite a lot:
 
 If you agree with or liked my reviews, feel free to share this post! Also comment below to share your favorite
 study spots in Chicago!
+
+[studySpotsCollage]: ../../../../assets/studySpotsCollage.jpg
+[greenTeaSmoothie]: ../../../../assets/greenTeaSmoothie.jpg "Green tea smoothie"
+[boba]: ../../../../assets/boba.jpg "Bubble tea"
+[nextDoor]: ../../../../assets/nextDoor.jpg "Next Door Cafe"
