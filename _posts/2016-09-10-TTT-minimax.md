@@ -3,17 +3,16 @@
 layout: post
 title:  "Tic Tac Toe: Minimax Algorithm"
 date:   2016-09-10 11:00:00 -0500
-# author information
 author: Aaron Young
-profilePic: profile-sm.jpg
-about: /blog/about
-# comments
-comments: true
-# cover photo
-cover-photo: "assets/TTT-minimax.png"
-# category and tags
+author-pic: profile-sm.jpg
+about-author: about
+cover-photo: TTT-minimax.png
 category: programming
 tags: javascript freecodecamp
+comments: true
+
+
+
 ---
 
 One of the features I wanted to have in my Tic Tac Toe game was an unbeatable computer, but I wasn't entirely sure how I was going to implement it. After some googling, I came across a very well written article on this exact problem:

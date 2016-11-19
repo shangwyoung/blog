@@ -29,7 +29,7 @@ layout: default-grey
       </h2>
       <span class="post-meta">
         {% if post.author %}
-          <span><a class="post-meta-link" href="{{ post.about }}"><img class="profile-sm" src="{{ site.url }}/assets/images/{{ post.profilePic }}"> {{ post.author }}</span></a> ·
+          <span><a class="post-meta-link" href="{{ site.baseurl }}/{{ post.about-author }}"><img class="profile-sm" src="{{ site.baseurl }}/assets/images/{{ post.author-pic }}"> {{ post.author }}</span></a> ·
         {% endif %}
         {{ post.date | date: "%b %-d, %Y" }} ·
         {% assign words = post.content | number_of_words %}
@@ -43,7 +43,7 @@ layout: default-grey
       </span>
       <a class="post-meta-link" href="{{ post.url | prepend: site.baseurl }}">
         {% if post.cover-photo %}
-          <img class="cover-photo" src="{{ post.cover-photo }}">
+          <img class="cover-photo" src="{{ site.baseurl }}/assets/images/{{ post.cover-photo }}">
         {% endif %}
         <p>{{ post.excerpt | truncatewords:75 }}</p>
       </a>

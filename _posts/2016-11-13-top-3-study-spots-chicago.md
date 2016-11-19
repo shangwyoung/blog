@@ -3,12 +3,12 @@ layout: post
 title:  "Top 3 Study Spots in Chicago"
 date:   2016-11-13 11:00:00 -0500
 author: Aaron Young
-about: /blog/about
-profilePic: profile-sm.jpg
-comments: true
-cover-photo: "assets/coffeeshops.jpg"
+about-author: about
+author-pic: profile-sm.jpg
+cover-photo: coffeeshops.jpg
 category: food
 tags: chicago coffeeshop freewifi
+comments: true
 ---
 
 If you are like me who could never concentrate or be productive at home, then
@@ -82,7 +82,4 @@ in Chicago that I frequent quite a lot:
 If you agree with or liked my reviews, feel free to share this post! Also comment below to share your favorite
 study spots in Chicago!
 
-[studySpotsCollage]: http://www.aaronyoung.me/blog/assets/studySpotsCollage.jpg
-[greenTeaSmoothie]: http://www.aaronyoung.me/blog/assets/greenTeaSmoothie.jpg "Green tea smoothie"
-[boba]: http://www.aaronyoung.me/blog/assets/boba.jpg "Bubble tea"
-[nextDoor]: http://www.aaronyoung.me/blog/assets/nextDoor.jpg "Next Door Cafe"
+[studySpotsCollage]: /blog/assets/images/studySpotsCollage.jpg

@@ -2,14 +2,13 @@
 layout: post
 title:  "Bootstrap JS Scrollspy with Animated Scrolling and Collapsing Navbar"
 date:   2016-08-19 11:00:00 -0500
-# categories: update
-comments: true
 author: Aaron Young
-profilePic: profile-sm.jpg
-about: /blog/about
-cover-photo: "assets/personalwebsitepic-cover.png"
+author-pic: profile-sm.jpg
+about-author: about
+cover-photo: personalwebsitepic-cover.png
 category: programming
 tags: html css javascript
+comments: true
 ---
 
 It's the year 2k16, and the last thing anyone wants to see on the internet is a
@@ -240,7 +239,7 @@ Helpful links
 
 ---
 
-[personal-website-v1]: http://www.aaronyoung.me/blog/assets/personalwebsitepic.png "My old personal website"
+[personal-website-v1]: /blog/assets/images/personalwebsitepic.png "My old personal website"
 [1]: https://www.spotify.com/us/
 [2]: https://www.airbnb.com/
 [3]: http://www.w3schools.com/bootstrap/bootstrap_scrollspy.asp
