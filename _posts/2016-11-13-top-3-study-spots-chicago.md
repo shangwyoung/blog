@@ -80,4 +80,4 @@ in Chicago that I frequent quite a lot:
 
 If you agree with or liked my reviews, feel free to share this post! Also comment below to share your favorite study spots in Chicago!
 
-[studySpotsCollage]: /blog/assets/images/studySpotsCollage.jpg
+[studySpotsCollage]: /assets/images/studySpotsCollage.jpg
