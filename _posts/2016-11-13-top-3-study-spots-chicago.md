@@ -11,8 +11,7 @@ tags: chicago coffeeshop freewifi
 comments: true
 ---
 
-If you are like me who could never concentrate or be productive at home, then
-you'll understand the need for good coffeeshops.
+If you are like me who could never concentrate or be productive at home, then you'll understand the need for good coffeeshops.
 
 ![studySpotsCollage]
 
@@ -79,7 +78,6 @@ in Chicago that I frequent quite a lot:
 
 <span class="yelp-review" data-review-id="M2l2k3ei9TNdkHz1fR8OQQ" data-hostname="www.yelp.com">Read <a href="https://www.yelp.com/user_details?userid=DA4tt7St-An_J_8syAlG9A" rel="nofollow noopener">Aaron Y.</a>'s <a href="https://www.yelp.com/biz/cassava-cafe-chicago?hrid=M2l2k3ei9TNdkHz1fR8OQQ" rel="nofollow noopener">review</a> of <a href="https://www.yelp.com/biz/zFw6f0mNqRebBRgy8Tzvow" rel="nofollow noopener">Cassava Cafe</a> on <a href="https://www.yelp.com" rel="nofollow noopener">Yelp</a><script async="async" src="https://www.yelp.com/embed/widgets.js" type="text/javascript"></script></span>
 
-If you agree with or liked my reviews, feel free to share this post! Also comment below to share your favorite
-study spots in Chicago!
+If you agree with or liked my reviews, feel free to share this post! Also comment below to share your favorite study spots in Chicago!
 
 [studySpotsCollage]: /blog/assets/images/studySpotsCollage.jpg
