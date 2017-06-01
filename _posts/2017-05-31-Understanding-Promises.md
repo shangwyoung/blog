@@ -44,7 +44,7 @@ promiseToDoLaundry
 > Laundry is done!
 ```
 
-If the task was successful, `resolve()` is called, and "Laundry is done!" is outputted to the console. If the task failed, `reject` is called, and "Laundry is not done!" is outputted on the console.
+If the task was successful, `resolve` is called, and "Laundry is done!" is outputted to the console. If the task failed, `reject` is called, and "Laundry is not done!" is outputted on the console.
 Obviously, there is no asynchronous task being done in this example, and I'm using the `isSuccessful` variable to indicate the status of the task to keep this example simple.
 
 ## Promises are composable
