@@ -5,7 +5,7 @@ date:   2017-05-31 23:00:00 -0800
 author: Aaron Young
 about-author: about
 author-pic: profile-sm.jpg
-cover-photo:
+cover-photo: promise.png
 category: programming
 tags: javascript
 comments: true
