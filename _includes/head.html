@@ -10,4 +10,10 @@
   <link rel="canonical" href="{{ page.url | replace:'index.html','' | prepend: site.baseurl | prepend: site.url }}">
   <link rel="alternate" type="application/rss+xml" title="{{ site.title }}" href="{{ "/feed.xml" | prepend: site.baseurl | prepend: site.url }}">
   <link rel="icon" type="image/ico" href="{{ "/assets/images/aylogo.ico" | prepend: site.url }}">
+
+  <meta property="og:url"           content="{{ page.url | prepend: site.baseurl | prepend: site.url }}" />
+  <meta property="og:type"          content="website" />
+  <meta property="og:title"         content="{% if page.title %}{{ page.title | append: " | " | append: site.title }}{% else %}{{ site.title }}{% endif %}" />
+  <meta property="og:description"   content="{% if page.excerpt %}{{ page.excerpt | strip_html | strip_newlines | truncate: 160 }}{% else %}{{ site.description }}{% endif %}" />
+  <meta property="og:image"         content="{% if page.cover-photo %}{{ page.cover-photo | prepend: "/assets/images/" | prepend: site.url }}{% else %}{{ "/assets/images/defaultCoverPhoto.png" | prepend: site.url }}{% endif %}" />
 </head>
