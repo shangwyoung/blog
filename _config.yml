@@ -12,8 +12,8 @@ email: asw.young@gmail.com
 description: > # this means to ignore newlines until "baseurl:"
   Just a normal guy trying to make sense of the world of CS
 baseurl: "" # the subpath of your site, e.g. /blog
-url: "http://blog.aaronyoung.me" # the base hostname & protocol for your site
-twitter_username: aarony422
+url: "http://blog.shangwyoung.come" # the base hostname & protocol for your site
+twitter_username: shangwyoung
 github_username:  aarony422
 paginate: 10
 paginate_path: "/page:num/"
